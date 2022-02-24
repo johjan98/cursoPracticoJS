@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras Geométricas</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="title">
+    <h1>Figuras Geométricas</h1>
+    <p>Taller 1 curso práctico JS</p>
+  </header>
+  <main class="mainContainer">
+    <section class="form1">
+      <h2>Cuadrado</h2>
+      <form action="" class="f1 formularios">
+        <label for="ladoCuadrado">
+          <span>Longitud lado</span>
+          <input type="number" placeholder="Lado" id="ladoCuadrado">
+        </label>
+        <button type="button" onclick="perimetroCuadrado()">Perímetro</button>
+        <button type="button" onclick="areaCuadrado()">Área</button>
+      </form>
+    </section>
+    <section class="form2">
+      <h2>Triángulo Isóceles</h2>
+      <form action="" class="f2 formularios">
+        <label for="lados">
+          <span>Longitud lados</span>
+          <input type="number" placeholder="Lado" id="lados">
+        </label>
+        <label for="base">
+          <span>Longitud base</span>
+          <input type="number" placeholder="Base" id="base">
+        </label>
+        <label for="altura">
+          <span>Longitud altura</span>
+          <input type="number" placeholder="Altura" id="altura">
+        </label>
+        <button type="button" onclick="perimetroTriangulo()">Perímetro</button>
+        <button type="button" onclick="areaTriangulo()">Área</button>
+      </form>
+    </section>
+    <section class="form3">
+      <h2>Círculo</h2>
+      <form action="" class="f3 formularios">
+        <label for="radio">
+          <span>Longitud radio</span>
+          <input type="number" placeholder="Radio" id="radio">
+        </label>
+        <button type="button" onclick="perimetroCirculo()">Perímetro</button>
+        <button type="button" onclick="areaCirculo()">Área</button>
+      </form>
+    </section>
+  </main>
+  <script src="./figure.js"></script>
+</body>
+</html>

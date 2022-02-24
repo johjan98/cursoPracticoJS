@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header{
+  display: flex;
+  background-color: #90999B;
+  position: relative;
+  min-height: 4rem;
+  height: 10vh;
+  align-items: center;
+}
+
+.title h1{
+  font-size: 4rem;
+  margin-left: 5vw;
+}
+
+.title p{
+  font-size: 2rem;
+  position: absolute;
+  left: 80vw;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2{
+  font-size: 2rem;
+  position: relative;
+  left: 8.3rem;
+  top: 2rem;
+}
+
+span{
+  font-size: 1.5rem;
+}
+
+input {
+  border-radius: 3px;
+  width: 7rem;
+}
+
+.form1, .form2, .form3 {
+  display: flex;
+  background-color: #73A2BD;
+  width: 30vw;
+  height: 35vh;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 10px 10px 20px #90999B;
+}
+
+.form2 {
+  position: relative;
+  top: 50vh;
+}
+
+.f1 {
+  position: relative;
+  top: 6rem;
+  right: 3.3rem;
+}
+
+.f1 > label, .f1 > button {
+  margin: 1rem;
+}
+
+.f2{
+  position: relative;
+  top: 5rem;
+  right: 7.3rem;
+}
+
+.f2 > label, .f2 > button {
+  margin: 0.5rem;
+}
+
+.f3{
+  position: relative;
+  top: 6rem;
+  right: 3.3rem;
+}
+
+.f3 > label, .f3 > button{
+  margin: 1rem;
+}
+
+.formularios {
+  display: flex;
+  flex-direction: column;
+}
